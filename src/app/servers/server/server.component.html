@@ -1,0 +1,4 @@
+<h5>{{ server.name }}</h5>
+<p>Server status is {{ server.status }}</p>
+<app-edit-server [serverId]="server.id"></app-edit-server>
+<a (click)="getBack()" class="btn">Get Back</a>
